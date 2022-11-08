@@ -1,0 +1,15 @@
+It is an algo used to train the neural networks.
+Train=>finding the correct value of weights and biases on the given data.
+
+Working:-
+steps:-
+0)initialize w,b
+1)You select a point(row)/(student)
+2)predict(lpa)->forward propagation(dot product)
+3)choose a loss function
+  L=square((y-y'))
+4)Update weights and biases using the gradient descent
+W(new)=W(old)-n(dL/dW(old))
+b(new)=b(old)-n(dL/db(old))             //=>Partial derivatives
+
+Now,our task is to calculate these 9 derivatives.
